@@ -17,5 +17,14 @@ public class SkinService {
         skinRepository.findAll().forEach(skin -> skins.add(skin));
         return skins;
     }
+    public Skin getSkinById(int id){
+        return skinRepository.findById(id).get();
+    }
+    public void addSkin(Skin skin){
+        skinRepository.save(skin);
+    }
+    public void delete(int id){
+        skinRepository.deleteById(id);
+    }
 
 }

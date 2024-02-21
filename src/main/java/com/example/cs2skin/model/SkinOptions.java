@@ -15,9 +15,9 @@ public class SkinOptions {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private int id;
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String Name;
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String ImageURL;
     public int getId() {
         return id;
