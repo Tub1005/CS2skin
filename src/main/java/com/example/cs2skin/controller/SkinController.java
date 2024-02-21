@@ -16,7 +16,7 @@ public class SkinController {
     SkinService skinService;
     @GetMapping()
     List<Skin> getAllSkins(){
-
+        return skinService.getAllSkins();
     }
 
 }
