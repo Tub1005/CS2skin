@@ -32,7 +32,7 @@ public class Skin {
         Pistol, SMG, SniperRifel,Shotgun, Rifle, Equipment, knife, MachineGun, Gloves
     }
     enum Rarity{
-        Exstraordinary, Covert, Classified, Restricted, MilSpec
+        Exstraordinary, Covert, Classified, Restricted, MilSpec, IndustrialGrade, ConsumerGrade
     }
     enum Quality{
         FactoryNew, MinimalWear, FielTested, WellWorn, BattleScared
